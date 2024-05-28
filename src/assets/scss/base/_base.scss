@@ -1,0 +1,11 @@
+@use "../abstracts/variables" as *;
+
+html {
+    box-sizing: border-box;
+    height: 100%;
+    font-size: var(--base-font-size);
+}
+
+body {
+    font-family: var(--body-font-family);
+}
