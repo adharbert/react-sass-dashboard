@@ -1,13 +1,19 @@
 import { useState } from 'react'
 import "./assets/css/main.css";
+import PageHeader from './components/PageHeader'
+import LandingPage from './pageBody/Landing'
+import Footer from './components/Footer'
 
 function App() {
-
-
   return (
     <>
-      New app!
-    </>
+      <PageHeader />
+      <main>
+        <LandingPage />  
+      </main>
+      {/* add modal here*/} 
+      <Footer/>
+    </>    
   )
 }
 
