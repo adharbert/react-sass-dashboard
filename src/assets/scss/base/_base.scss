@@ -8,4 +8,23 @@ html {
 
 body {
     font-family: var(--body-font-family);
+    width: 100%;
+    min-height: 100%;
+    background-color: var(--global-bg-clr);
+    color: var(--global-text-clr);
+    font-weight: var(--font-weight-regular);
+    line-height: var(--default-line-heights);
+    overflow-x: hidden;
+    font-size: var(--paragraph-size);
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+}
+
+a, i, span {
+    display: inline-block;
 }
